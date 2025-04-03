@@ -5,7 +5,6 @@ import string
 import nltk
 # Ensure necessary NLTK data is available
 # You might need to run nltk.download('stopwords') once locally if you haven't
-try:
 st.set_page_config(page_title="Phishing Detector", layout="wide")
 
 # --- Configuration ---
