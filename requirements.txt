@@ -1,0 +1,7 @@
+pandas
+nltk
+scikit-learn
+streamlit
+joblib
+# If you added other libraries for Paper 1 features (like textstat, vaderSentiment, lightgbm)
+# and used them in streamlit_app.py, ADD THEM TO THIS LIST TOO!
