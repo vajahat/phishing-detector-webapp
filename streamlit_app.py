@@ -6,14 +6,6 @@ import nltk
 # Ensure necessary NLTK data is available
 # You might need to run nltk.download('stopwords') once locally if you haven't
 try:
-    nltk.data.find('corpora/stopwords')
-except nltk.downloader.DownloadError:
-    # This might fail on deployment servers, handle gracefully
-    print("NLTK stopwords not found. Skipping stopword removal if it was intended.")
-    # To download during build (might work on Streamlit Cloud):
-    # nltk.download('stopwords')
-    pass # Avoid stopping the app if download fails on server
-from nltk.corpus import stopwords
 st.set_page_config(page_title="Phishing Detector", layout="wide")
 
 # --- Configuration ---
